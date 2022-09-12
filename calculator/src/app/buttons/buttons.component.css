@@ -1,0 +1,127 @@
+.calc{
+    border : 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.all-btns{
+    display: flex;
+}
+
+.btn-numbers{
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+}
+
+.btn-signs{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-numbers button{
+    background-color: burlywood;
+    border: none;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-signs button{
+    background-color: greenyellow;
+    border: none;
+    margin: 10px;
+    color: black;
+    font-size: 25px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+}
+
+.btn-signs button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px greenyellow;
+}
+
+.btn-numbers button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px burlywood;
+}
+
+.btn-extra{
+    display: flex;
+}
+
+.btn-extra button{
+    background-color: greenyellow;
+}
+
+.btn-extra button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px greenyellow;
+}
+
+.btn-clear-equals{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.btn-clear-equals button{
+    width: 120px;
+    font-size: 2em;
+    padding: 5px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+#clear{
+    color: black;
+    background-color: turquoise;
+}
+
+#equals{
+    color: black;
+    background-color: turquoise;
+}
+
+#clear:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#equals:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+input{
+    width: 80%;
+    margin: 10px 0px;
+    font-size: 2em;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid gray;
+}
